@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.springframework.boot.seata.rest.SeataRestTemplateAutoConfiguration,\
+org.springframework.boot.seata.web.SeataHandlerInterceptorConfiguration,\
+org.springframework.boot.seata.GlobalTransactionAutoConfiguration,\
+org.springframework.boot.seata.feign.SeataFeignClientAutoConfiguration,\
+org.springframework.boot.seata.feign.hystrix.SeataHystrixAutoConfiguration
+

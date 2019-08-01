@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.boot.seata.SeataProperties",
+      "name": "spring.boot.seata",
+      "type": "org.springframework.boot.seata.SeataProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.boot.seata.SeataProperties",
+      "name": "spring.boot.seata.tx-service-group",
+      "description": "Seata tx service group.default is ${spring.application.name}-fescar-service-group.",
+      "type": "java.lang.String"
+    }
+  ]
+}

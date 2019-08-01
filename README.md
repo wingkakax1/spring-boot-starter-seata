@@ -49,3 +49,5 @@ CREATE TABLE `undo_log` (
 2、复制配置文件[file.conf]、[registry.conf]文件至项目[resource]目录下
 
 3、使用全局事务注解 @GlobalTransactional(timeoutMills = 300000, name = "spring-cloud-demo-tx")
+
+感谢原作者【https://github.com/itrickzhang/spring-boot-starter-seata/wiki/Quick-Start】提供的fescar版源码
